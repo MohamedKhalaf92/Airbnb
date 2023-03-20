@@ -1,11 +1,12 @@
 import React from "react";
+import heroImage from "../images/Group77.png"
 
 export const Hero = () => {
   return (
     <section className="hero-container">
       <img
         className="hero--image"
-        src="./public/Images/Group77.png"
+        src={heroImage}
         alt=""
       />
       <h1 className="hero--header" >Online Experiences</h1>

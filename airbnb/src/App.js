@@ -18,6 +18,7 @@ function App() {
           reviewCount={CardData.stats.reviewCount}
           location={CardData.location}
           price={CardData.price}
+          openSpots={CardData.openSpots}
         />
       ))}
     </div>
